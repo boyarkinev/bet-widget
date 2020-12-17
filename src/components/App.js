@@ -12,7 +12,7 @@ const App = () => {
   return (
     <div className='App'>
       <div className='widget'>
-        <h2 className='widget__title'>Bets</h2>          
+        <h2 className='widget__title'>Bets</h2>
           {WidgetTableData}
       </div>
     </div>

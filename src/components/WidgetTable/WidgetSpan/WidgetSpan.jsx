@@ -3,8 +3,6 @@ import coins from '../../../images/coins.svg';
 import check from '../../../images/check.svg';
 import watch from '../../../images/watch.svg';
 
-// isActive.id === item ? 'btn btn_is-Pressed' : 'btn'
-
 const WidgetSpan = (props) => {
   return (
     <div className={props.isShown ? props.className : ''}>
