@@ -1,0 +1,107 @@
+.widget__table {
+  width: 256px;
+  display: grid;
+  grid-template-columns: 47px auto 18px;
+  row-gap: 2px;
+  column-gap: 10px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+.widget__table-wrapper {
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom: 1px solid #738c99;
+  cursor: default;
+  transition: background-color .2s;
+}
+
+.widget__table-wrapper:hover {
+  background-color: rgba(255, 255, 255, .05);
+}
+
+.widget__table-wrapper:last-of-type {
+  border-bottom: 1px solid transparent;
+}
+
+.widget__id {
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  text-transform: uppercase;
+  color: #fff;
+  margin: 0;
+}
+
+.widget_win-color {
+  color: #94E107;
+}
+
+.widget__action {
+  font-weight: 700;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  color: #fff;
+  margin: 0;
+}
+
+.widget__action-offside {
+  color: #d6b2ff;
+}
+
+.widget__action-free-kick {
+  color: #a6ddff;
+}
+
+.widget__action-goal-kick {
+  color: #85f2ef;
+}
+
+.widget__action-goal {
+  color: #ffc6a6;
+}
+
+.widget__action-corner-kick {
+  color: #feb2d5;
+}
+
+.widget__status {
+  color: #fff;
+}
+
+.widget__text {
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  color: #738c99;
+  margin: 0;
+}
+
+.widget__text_light {
+  color: #b8ccd9;
+}
+
+.widget__text_right-align {
+  text-align: right;
+}
+
+.widget__money {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 8px;
+}
+
+.widget__span {
+  width: 256px;
+  display: grid;
+  grid-template-columns: 47px 5fr 3fr 1fr 18px;
+  column-gap: 12px;
+  row-gap: 2px;
+  padding-bottom: 4px;
+  padding-top: 4px;
+}
+
+.widget__span_is-hidden {
+  display: none;
+}
