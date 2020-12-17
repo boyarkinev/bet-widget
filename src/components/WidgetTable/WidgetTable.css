@@ -67,7 +67,7 @@
 }
 
 .widget__status {
-  color: #fff;
+  color: #b8ccd9;
 }
 
 .widget__text {
@@ -104,4 +104,8 @@
 
 .widget__span_is-hidden {
   display: none;
+}
+
+.elem-green {
+  color: #94e107;
 }

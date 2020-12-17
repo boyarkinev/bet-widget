@@ -174,6 +174,31 @@ const DATA = [
     tax: 2.7,
     status: 'freeze'
   },
+  {
+    id: '090',
+    action: {
+      offside: false,
+      freeKick: false,
+      goalKick: false,
+      goal: false,
+      cornerKick: true,
+    },
+    details: {
+      betWin: '+ 2 550',
+      betAccepted: '0',
+      betReceived: '- 100',
+    },
+    bet: 1000.00,
+    paid: 2700.32,
+    currency: {
+      euro: '&euro;',
+      dollar: '$',
+      rub: '&#8381;',
+    },
+    time: '18:53:36',
+    tax: 2.7,
+    status: 'freeze'
+  },
 ]
 
 export default DATA;

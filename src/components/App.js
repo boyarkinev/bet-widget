@@ -3,6 +3,7 @@ import '../vendors/fonts/fonts.css';
 
 import React from 'react';
 
+
 import WidgetTableContainer from './WidgetTable/WidgetTable';
 import DATA from '../data/DATA';
 
@@ -13,7 +14,9 @@ const App = () => {
     <div className='App'>
       <div className='widget'>
         <h2 className='widget__title'>Bets</h2>
-          {WidgetTableData}
+          <div className="widget-wrapper">
+            {WidgetTableData}
+          </div>
       </div>
     </div>
   );
