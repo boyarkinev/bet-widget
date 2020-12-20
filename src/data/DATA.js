@@ -1,13 +1,33 @@
 const DATA = [
   {
     id: '0000',
-    action: {
-      offside: true,
-      freeKick: true,
-      goalKick: true,
-      goal: false,
-      cornerKick: false,
-    },
+    actions: [
+      {
+        key: 1,
+        status: true,
+        actionName: 'Offside',
+      },
+      {
+        key: 2,
+        status: true,
+        actionName: 'Free Kick',
+       },
+      {
+        key: 3,
+        status: true,
+        actionName: 'Goal Kick',
+       },
+      {
+        key: 4,
+        status: false,
+        actionName: 'Goal',
+       },
+      {
+        key: 5,
+        status: false,
+        actionName: 'Corner Kick',
+      },
+    ] ,
     details: {
       betWin: '+ 2 550',
       betAccepted: '0',
@@ -26,13 +46,33 @@ const DATA = [
   },
   {
     id: '087',
-    action: {
-      offside: false,
-      freeKick: false,
-      goalKick: true,
-      goal: true,
-      cornerKick: false,
-    },
+    actions: [
+      {
+        key: 1,
+        status: false,
+        actionName: 'Offside',
+      },
+      {
+        key: 2,
+        status: false,
+        actionName: 'Free Kick',
+       },
+      {
+        key: 3,
+        status: true,
+        actionName: 'Goal Kick',
+       },
+      {
+        key: 4,
+        status: true,
+        actionName: 'Goal',
+       },
+      {
+        key: 5,
+        status: false,
+        actionName: 'Corner Kick',
+      },
+    ] ,
     details: {
       betWin: '+ 2 550',
       betAccepted: '0',
@@ -51,13 +91,33 @@ const DATA = [
   },
   {
     id: '088',
-    action: {
-      offside: false,
-      freeKick: false,
-      goalKick: false,
-      goal: true,
-      cornerKick: false,
-    },
+    actions: [
+      {
+        key: 1,
+        status: false,
+        actionName: 'Offside',
+      },
+      {
+        key: 2,
+        status: false,
+        actionName: 'Free Kick',
+       },
+      {
+        key: 3,
+        status: false,
+        actionName: 'Goal Kick',
+       },
+      {
+        key: 4,
+        status: true,
+        actionName: 'Goal',
+       },
+      {
+        key: 5,
+        status: false,
+        actionName: 'Corner Kick',
+      },
+    ] ,
     details: {
       betWin: '+ 2 550',
       betAccepted: '0',
@@ -76,13 +136,33 @@ const DATA = [
   },
   {
     id: '085',
-    action: {
-      offside: true,
-      freeKick: false,
-      goalKick: false,
-      goal: false,
-      cornerKick: false,
-    },
+    actions: [
+      {
+        key: 1,
+        status: true,
+        actionName: 'Offside',
+      },
+      {
+        key: 2,
+        status: false,
+        actionName: 'Free Kick',
+       },
+      {
+        key: 3,
+        status: false,
+        actionName: 'Goal Kick',
+       },
+      {
+        key: 4,
+        status: false,
+        actionName: 'Goal',
+       },
+      {
+        key: 5,
+        status: false,
+        actionName: 'Corner Kick',
+      },
+    ] ,
     details: {
       betWin: '+ 2 550',
       betAccepted: '0',
@@ -101,13 +181,33 @@ const DATA = [
   },
   {
     id: '084',
-    action: {
-      offside: false,
-      freeKick: true,
-      goalKick: false,
-      goal: false,
-      cornerKick: true,
-    },
+    actions: [
+      {
+        key: 1,
+        status: false,
+        actionName: 'Offside',
+      },
+      {
+        key: 2,
+        status: true,
+        actionName: 'Free Kick',
+       },
+      {
+        key: 3,
+        status: false,
+        actionName: 'Goal Kick',
+       },
+      {
+        key: 4,
+        status: false,
+        actionName: 'Goal',
+       },
+      {
+        key: 5,
+        status: true,
+        actionName: 'Corner Kick',
+      },
+    ] ,
     details: {
       betWin: '+ 2 550',
       betAccepted: '0',
@@ -126,13 +226,33 @@ const DATA = [
   },
   {
     id: '083',
-    action: {
-      offside: false,
-      freeKick: true,
-      goalKick: false,
-      goal: false,
-      cornerKick: true,
-    },
+    actions: [
+      {
+        key: 1,
+        status: false,
+        actionName: 'Offside',
+      },
+      {
+        key: 2,
+        status: true,
+        actionName: 'Free Kick',
+       },
+      {
+        key: 3,
+        status: false,
+        actionName: 'Goal Kick',
+       },
+      {
+        key: 4,
+        status: false,
+        actionName: 'Goal',
+       },
+      {
+        key: 5,
+        status: true,
+        actionName: 'Corner Kick',
+      },
+    ] ,
     details: {
       betWin: '+ 2 550',
       betAccepted: '0',
@@ -151,13 +271,33 @@ const DATA = [
   },
   {
     id: '089',
-    action: {
-      offside: false,
-      freeKick: false,
-      goalKick: false,
-      goal: false,
-      cornerKick: true,
-    },
+    actions: [
+      {
+        key: 1,
+        status: false,
+        actionName: 'Offside',
+      },
+      {
+        key: 2,
+        status: false,
+        actionName: 'Free Kick',
+       },
+      {
+        key: 3,
+        status: false,
+        actionName: 'Goal Kick',
+       },
+      {
+        key: 4,
+        status: false,
+        actionName: 'Goal',
+       },
+      {
+        key: 5,
+        status: true,
+        actionName: 'Corner Kick',
+      },
+    ] ,
     details: {
       betWin: '+ 2 550',
       betAccepted: '0',
@@ -176,13 +316,33 @@ const DATA = [
   },
   {
     id: '090',
-    action: {
-      offside: false,
-      freeKick: false,
-      goalKick: false,
-      goal: false,
-      cornerKick: true,
-    },
+    actions: [
+      {
+        key: 1,
+        status: false,
+        actionName: 'Offside',
+      },
+      {
+        key: 2,
+        status: false,
+        actionName: 'Free Kick',
+       },
+      {
+        key: 3,
+        status: false,
+        actionName: 'Goal Kick',
+       },
+      {
+        key: 4,
+        status: true,
+        actionName: 'Goal',
+       },
+      {
+        key: 5,
+        status: false,
+        actionName: 'Corner Kick',
+      },
+    ] ,
     details: {
       betWin: '+ 2 550',
       betAccepted: '0',

@@ -23,25 +23,18 @@ const WidgetTable = (props) => {
           ID {bet.id}{' '}
         </p>
         <p className='widget__action'>
-          <span className='widget__action-offside'>
-            {bet.action.offside === true ? 'Offside' : ''}{' '}
-          </span>
-          {/* or  */}
-          <span className='widget__action-free-kick'>
-            {bet.action.freeKick === true ? 'Free Kick' : ''}
-          </span>
-          {/* or  */}
-          <span className='widget__action-goal-kick'>
-            {bet.action.goalKick === true ? 'Goal Kick' : ''}{' '}
-          </span>
-          {/* or  */}
-          <span className='widget__action-goal'>
-            {bet.action.goal === true ? 'Goal' : ''}{' '}
-          </span>
-          {/* or  */}
-          <span className='widget__action-corner-kick'>
-            {bet.action.cornerKick === true ? 'Corner Kick' : ''}{' '}
-          </span>
+          { 
+            bet.actions.map(action => (
+              action.status === true && 
+              <span key={action.key} className={
+                (action.actionName === 'Offside' && 'widget__action-offside') ||
+                (action.actionName === 'Free Kick' && 'widget__action-free-kick') ||
+                (action.actionName === 'Goal Kick' && 'widget__action-goal-kick') ||
+                (action.actionName === 'Goal' && 'widget__action-goal') ||
+                (action.actionName === 'Corner Kick' && 'widget__action-corner-kick')
+              }>{action.actionName + ' '}</span>
+            ))
+          }
         </p>
         <FontAwesomeIcon
           className={

@@ -3,7 +3,6 @@ import '../vendors/fonts/fonts.css';
 
 import React from 'react';
 
-
 import WidgetTableContainer from './WidgetTable/WidgetTable';
 import DATA from '../data/DATA';
 
