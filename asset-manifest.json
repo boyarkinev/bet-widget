@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/bet-widget/static/css/main.4cff8938.chunk.css",
-    "main.js": "/bet-widget/static/js/main.67316b12.chunk.js",
-    "main.js.map": "/bet-widget/static/js/main.67316b12.chunk.js.map",
+    "main.css": "/bet-widget/static/css/main.fa560a07.chunk.css",
+    "main.js": "/bet-widget/static/js/main.e7ead532.chunk.js",
+    "main.js.map": "/bet-widget/static/js/main.e7ead532.chunk.js.map",
     "runtime-main.js": "/bet-widget/static/js/runtime-main.96aa9df0.js",
     "runtime-main.js.map": "/bet-widget/static/js/runtime-main.96aa9df0.js.map",
     "static/js/2.8b296011.chunk.js": "/bet-widget/static/js/2.8b296011.chunk.js",
     "static/js/2.8b296011.chunk.js.map": "/bet-widget/static/js/2.8b296011.chunk.js.map",
     "index.html": "/bet-widget/index.html",
-    "static/css/main.4cff8938.chunk.css.map": "/bet-widget/static/css/main.4cff8938.chunk.css.map",
+    "static/css/main.fa560a07.chunk.css.map": "/bet-widget/static/css/main.fa560a07.chunk.css.map",
     "static/js/2.8b296011.chunk.js.LICENSE.txt": "/bet-widget/static/js/2.8b296011.chunk.js.LICENSE.txt",
     "static/media/fonts.css": "/bet-widget/static/media/alegreyasans-thin-webfont.f6a14f2e.woff2",
     "static/media/check.6e78231e.svg": "/bet-widget/static/media/check.6e78231e.svg",
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.96aa9df0.js",
     "static/js/2.8b296011.chunk.js",
-    "static/css/main.4cff8938.chunk.css",
-    "static/js/main.67316b12.chunk.js"
+    "static/css/main.fa560a07.chunk.css",
+    "static/js/main.e7ead532.chunk.js"
   ]
 }
